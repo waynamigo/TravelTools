@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pop_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/share_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:text="分享App到"
+        android:textSize="20sp"
+        android:background="#dddddd"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff" />
+
+    <GridView
+        android:id="@+id/share_gridview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:numColumns="3"
+        android:background="#dddddd"
+        android:padding="10dip"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="20dip" />
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:background="#ffffff"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="取消"
+        android:gravity="center"
+        android:textSize="20sp" />
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_transparent">
+
+        <LinearLayout
+            android:id="@+id/linear2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/yancy_green300"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+            <ImageView
+                android:id="@+id/globalback"
+                android:layout_width="24dp"
+                android:layout_height="20dp"
+                android:src="@drawable/back"
+                android:layout_gravity="center"
+                android:layout_marginLeft="14dp"
+                />
+        </LinearLayout>
+        <ListView
+            android:id="@+id/vrbox"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/rl_enroll"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+</LinearLayout>
